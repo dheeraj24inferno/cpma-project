@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>busnum</title>
+</head>
+<style>
+h1
+    {
+        background-color: darkblue;
+        padding: 20px;
+        color: snow
+    }
+    p
+    {
+        font-size: 20px
+    }
+    table,tr,td
+    {
+        border: 3px solid darkblue;
+        text-align: center;
+        margin: 10px
+    }
+</style>
+<body>
+<center><h1>BUS NUMBER & BUS ROUTE </h1></center>
+<p>Select Your Bus Terminal &nbsp;&nbsp;:</p>
+ <input id="from" list="start" name="start">
+  <datalist id="start">
+    <option value="Kempegowda Bus Station(Majestic)"></option>
+    <option value="K R Market"></option>
+     <option value="Shivajinagar"></option> 
+      <option value="Yelahanka"></option>
+       </datalist>
+    <p>Enter your Destination&nbsp;&nbsp;:</p>
+    <input id="to" list="end" name="end">
+    <datalist id="end">
+    <option value="Yeshwantpur"></option>
+    <option value="Peenya 2nd Stage"></option>
+    <option value="Yelahanka"></option>
+    <option value="Chikkalasandra"></option>
+    <option value="Basaveshwaranagar"></option>
+    <option value="Chandra Layout"></option>
+     <option value="Hampi Nagar"></option>
+        <option value="Kengeri"></option>
+        <option value="Nelamangala"></option>
+        <option value="BTM Layout"></option>
+        <option value="Banashankari"></option>
+        <option value="Bhuvaneshwari Nagar"></option>
+        <option value="Lakshmidevi Nagar"></option>
+        <option value="Kaval Byrasandra"></option>
+        <option value="Jeevanahalli"></option>
+        <option value="Viveka Nagar"></option>
+        <option value="Shivajinagar"></option>
+        <option value="Koramangala"></option>
+        <option value="Karishma Hills"></option>
+        <option value="Kempadyapana Halli"></option>
+        <option value="Dodda Gubbi"></option>
+        <option value="Kadabagere"></option>
+        <option value="Ramadevanahalli"></option>
+        <option value="Chalkere"></option>
+        <option value="Nekkundi Dommasandra"></option>
+        <option value="Subhash Nagar"></option>
+        <option value="Attibele"></option>
+        <option value="Kadajakkanahalli"></option>
+        <option value="Amarajyothi Layout"></option>
+        <option value="Yelahanka Satellite Town 5th Stage"></option>
+        <option value="Amarajyothi Layout"></option>
+        <option value="Madhuranagar"></option>
+        <option value="J. P. Nagar 6th Phase"></option>
+        <option value="YESHWANTHPUR RAILWAY STATION"></option>
+        <option value="Vijayanagar"></option>
+        <option value="Chowdeshwari Bus Stand JP Park"></option>
+        <option value="Kaval Byrasandra"></option>
+        <option value="Jeevanbheemanagar"></option>
+        <option value="Rose Garden"></option>
+        <option value="Ejipura"></option>
+        <option value="ISRO Layout"></option>
+        <option value="Bidadi"></option>
+        <option value="Rajanukunte"></option>
+        <option value="Kempegowda Bus Station"></option>
+        <option value="Billamaranahalli"></option>
+        <option value="Thambuchetty Palya"></option>
+        <option value="Gunjooru"></option>
+        <option value="Handenahalli"></option>
+        <option value="Makanahalli"></option>
+        <option value="Atturu"></option>
+        <option value="Anjanapura"></option>
+        <option value="V Nagenahalli"></option>
+        <option value="Nelamangala"></option>
+        <option value="Banashankari"></option>
+        <option value="Bhyrasandra"></option>
+        <option value="Kaval Byrasandra"></option>
+        <option value="Jeevanahalli"></option>
+        <option value="Jagajeevanaram Nagar"></option>
+        <option value="Uttarahalli"></option>
+        <option value="Bettana Palya"></option>
+        <option value="Annapoorneshwari Nagar"></option>
+        <option value="Laggere"></option>
+        <option value="Yelahanka"></option>
+        <option value="Om Shakti Temple"></option>
+        <option value="Muthsandra"></option>
+        <option value="Central Jail"></option>
+        <option value="Beguru"></option>
+        <option value="Yelenahalli"></option>
+        <option value="Chamundi Nagar"></option>
+        <option value="Yelahanka Satellite Town 5th Stage"></option>
+    </datalist>
+     <br>
+    <br>
+    <center><button id="search">Search</button></center>
+    <br>
+<form>
+<table id="table">
+    <tr>
+    <td style="height: 50px;width: 70px"><strong>Bus number</strong></td>
+    <td style="height: 50px;width: 300px"><strong>Via Route</strong></td>
+    </tr>
+</table>
+</form>
+<script type="text/javascript" src="js/bus.js"></script>
+</body>
+</html>

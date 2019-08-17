@@ -1,0 +1,140 @@
+<html>
+<head>
+<title> FARE ESTIMATOR</title>
+</head>
+<style>
+h1
+    {
+        background-color: darkblue;
+        padding: 20px;
+        font-family: serif;
+        color: snow
+    }
+ table,td,tr
+    {   margin-left: 20px;
+        border: 3px solid orange;
+        border-color: darkblue;
+        height: 92px;
+        width: 302px;
+        text-align: center
+            
+    }
+    button
+    {
+        height: 30px;
+        width: 160px;
+        border: 2px solid darkblue;
+        background-color: coral
+    }
+</style>
+<body>
+<h1>METRO FARE ESTIMATOR</h1>
+    <span><strong>FROM </strong>STATION</span>&nbsp;&nbsp;&nbsp;:
+    <form>
+    <input id="from" list="source" name="source">
+    <datalist id="source" style="height: 30px;width: 170px">
+    <option value="Attiguppe"></option>
+    <option value="Baiyappanahalli"></option>
+    <option value="Balagangadharanatha Swamiji Stn.,Hosahalli"></option>
+    <option value="Banashankari"></option>
+    <option value="Chickpete"></option>
+    <option value="City Railway Station"></option>
+    <option value="Cubbon Park"></option>
+    <option value="Dasarahalli"></option>
+    <option value="Deepanjali Nagar"></option>
+    <option value="Dr.B.R.Ambedkar Station, Vidhana Soudha"></option>
+    <option value="Goraguntepalya"></option>
+    <option value="Halasuru"></option>
+    <option value="Indiranagar"></option>
+    <option value="Jalahalli"></option>
+    <option value="Jaya Prakash Nagar"></option>
+    <option value="Jayanagar"></option>
+    <option value="Krishna Rajendra Market"></option>
+    <option value="Lalbagh"></option>
+    <option value="Magadi Road"></option>
+    <option value="Mahakavi Kuvempu road"></option>
+    <option value="Mahalakshmi"></option>
+    <option value="Mahathma Gandhi Road"></option>
+    <option value="Mysore Road"></option>
+    <option value="Nadaprabhu Kempegowda Station,Majestic"></option>
+    <option value="Nagasandra"></option>
+    <option value="National College"></option>
+    <option value="Peenya"></option>
+    <option value="Peenya Industry"></option>
+    <option value="Rajajinagar"></option>
+    <option value="Rashtreeya Vidyalaya Road"></option>
+    <option value="Sampige Road"></option>
+    <option value="Sandal Soap Factory"></option>
+    <option value="Sir M. Visveshwarya Station,Central College"></option>
+    <option value="South End Circle"></option>
+    <option value="Srirampura"></option>
+    <option value="Swami Vivekananda Road"></option>
+    <option value="Trinity"></option>
+    <option value="Vijaynagar"></option>
+    <option value="Yelachenahalli"></option>
+    <option value="Yeshwantpur"></option>
+    </datalist>
+    </form>
+    <span><strong>TO</strong> STATION
+    </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;
+    <form>
+    <input id="to" list="destination" name="destination">
+    <datalist id="destination" style="height: 30px;width: 170px">
+    <option value="Attiguppe"></option>
+    <option value="Baiyappanahalli"></option>
+    <option value="Balagangadharanatha Swamiji Stn.,Hosahalli"></option>
+    <option value="Banashankari"></option>
+    <option value="Chickpete"></option>
+    <option value="City Railway Station"></option>
+    <option value="Cubbon Park"></option>
+    <option value="Dasarahalli"></option>
+    <option value="Deepanjali Nagar"></option>
+    <option value="Dr.B.R.Ambedkar Station, Vidhana Soudha"></option>
+    <option value="Goraguntepalya"></option>
+    <option value="Halasuru"></option>
+    <option value="Indiranagar"></option>
+    <option value="Jalahalli"></option>
+    <option value="Jaya Prakash Nagar"></option>
+    <option value="Jayanagar"></option>
+    <option value="Krishna Rajendra Market"></option>
+    <option value="Lalbagh"></option>
+    <option value="Magadi Road"></option>
+    <option value="Mahakavi Kuvempu road"></option>
+    <option value="Mahalakshmi"></option>
+    <option value="Mahathma Gandhi Road"></option>
+    <option value="Mysore Road"></option>
+    <option value="Nadaprabhu Kempegowda Station,Majestic"></option>
+    <option value="Nagasandra"></option>
+    <option value="National College"></option>
+    <option value="Peenya"></option>
+    <option value="Peenya Industry"></option>
+    <option value="Rajajinagar"></option>
+    <option value="Rashtreeya Vidyalaya Road"></option>
+    <option value="Sampige Road"></option>
+    <option value="Sandal Soap Factory"></option>
+    <option value="Sir M. Visveshwarya Station,Central College"></option>
+    <option value="South End Circle"></option>
+    <option value="Srirampura"></option>
+    <option value="Swami Vivekananda Road"></option>
+    <option value="Trinity"></option>
+    <option value="Vijaynagar"></option>
+    <option value="Yelachenahalli"></option>
+    <option value="Yeshwantpur"></option>
+    </datalist>
+    </form>
+    <br>
+    <center><button id="fare">FARE</button></center>
+   <center> <a href="busfare.html"><p>Check Metro Route map</p></a></center>
+   <center>
+    <form>
+    <table id="table">
+        <tr>
+    <td><strong>Token</strong></td><br>
+    <td><strong>Stored Value Ticket-Varshik</strong></td><br>
+    <td><strong>Group Ticket</strong></td>
+    </tr>
+    </table>
+    </form>
+<script type="text/javascript" src="js/metro.js"></script>
+</body>  
+</html>
